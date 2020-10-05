@@ -1,4 +1,4 @@
-all: main.c buffer.c buffer.h
+all: *.c *.h
 	gcc -o main main.c buffer.c -lpthread -lrt -ansi -pedantic
 
 zip: *.c *.h makefile
